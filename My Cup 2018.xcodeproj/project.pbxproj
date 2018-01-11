@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309A7E7720079B8F001B018A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7620079B8F001B018A /* main.m */; };
+		309A7E7A20079B8F001B018A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7920079B8F001B018A /* AppDelegate.m */; };
+		309A7E7D20079B8F001B018A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7C20079B8F001B018A /* ViewController.m */; };
+		309A7E8020079B8F001B018A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E7E20079B8F001B018A /* Main.storyboard */; };
+		309A7E8320079B8F001B018A /* My_Cup_2018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */; };
+		309A7E8520079B8F001B018A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E8420079B8F001B018A /* Assets.xcassets */; };
+		309A7E8820079B8F001B018A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E8620079B8F001B018A /* LaunchScreen.storyboard */; };
+		309A7E9320079B8F001B018A /* My_Cup_2018Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E9220079B8F001B018A /* My_Cup_2018Tests.m */; };
+		309A7E9E20079B8F001B018A /* My_Cup_2018UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E9D20079B8F001B018A /* My_Cup_2018UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309A7E8F20079B8F001B018A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309A7E6A20079B8F001B018A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309A7E7120079B8F001B018A;
+			remoteInfo = "My Cup 2018";
+		};
+		309A7E9A20079B8F001B018A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309A7E6A20079B8F001B018A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309A7E7120079B8F001B018A;
+			remoteInfo = "My Cup 2018";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309A7E7220079B8F001B018A /* My Cup 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Cup 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309A7E7620079B8F001B018A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309A7E7820079B8F001B018A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309A7E7920079B8F001B018A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309A7E7B20079B8F001B018A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309A7E7C20079B8F001B018A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		309A7E7F20079B8F001B018A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Cup_2018.xcdatamodel; sourceTree = "<group>"; };
+		309A7E8420079B8F001B018A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		309A7E8720079B8F001B018A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		309A7E8920079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309A7E8E20079B8F001B018A /* My Cup 2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Cup 2018Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309A7E9220079B8F001B018A /* My_Cup_2018Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Cup_2018Tests.m; sourceTree = "<group>"; };
+		309A7E9420079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309A7E9920079B8F001B018A /* My Cup 2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Cup 2018UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309A7E9D20079B8F001B018A /* My_Cup_2018UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Cup_2018UITests.m; sourceTree = "<group>"; };
+		309A7E9F20079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309A7E6F20079B8F001B018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E8B20079B8F001B018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E9620079B8F001B018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309A7E6920079B8F001B018A = {
+			isa = PBXGroup;
+			children = (
+				309A7E7420079B8F001B018A /* My Cup 2018 */,
+				309A7E9120079B8F001B018A /* My Cup 2018Tests */,
+				309A7E9C20079B8F001B018A /* My Cup 2018UITests */,
+				309A7E7320079B8F001B018A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309A7E7320079B8F001B018A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309A7E7220079B8F001B018A /* My Cup 2018.app */,
+				309A7E8E20079B8F001B018A /* My Cup 2018Tests.xctest */,
+				309A7E9920079B8F001B018A /* My Cup 2018UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309A7E7420079B8F001B018A /* My Cup 2018 */ = {
+			isa = PBXGroup;
+			children = (
+				309A7E7820079B8F001B018A /* AppDelegate.h */,
+				309A7E7920079B8F001B018A /* AppDelegate.m */,
+				309A7E7B20079B8F001B018A /* ViewController.h */,
+				309A7E7C20079B8F001B018A /* ViewController.m */,
+				309A7E7E20079B8F001B018A /* Main.storyboard */,
+				309A7E8420079B8F001B018A /* Assets.xcassets */,
+				309A7E8620079B8F001B018A /* LaunchScreen.storyboard */,
+				309A7E8920079B8F001B018A /* Info.plist */,
+				309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */,
+				309A7E7520079B8F001B018A /* Supporting Files */,
+			);
+			path = "My Cup 2018";
+			sourceTree = "<group>";
+		};
+		309A7E7520079B8F001B018A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309A7E7620079B8F001B018A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309A7E9120079B8F001B018A /* My Cup 2018Tests */ = {
+			isa = PBXGroup;
+			children = (
+				309A7E9220079B8F001B018A /* My_Cup_2018Tests.m */,
+				309A7E9420079B8F001B018A /* Info.plist */,
+			);
+			path = "My Cup 2018Tests";
+			sourceTree = "<group>";
+		};
+		309A7E9C20079B8F001B018A /* My Cup 2018UITests */ = {
+			isa = PBXGroup;
+			children = (
+				309A7E9D20079B8F001B018A /* My_Cup_2018UITests.m */,
+				309A7E9F20079B8F001B018A /* Info.plist */,
+			);
+			path = "My Cup 2018UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309A7E7120079B8F001B018A /* My Cup 2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309A7EA220079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018" */;
+			buildPhases = (
+				309A7E6E20079B8F001B018A /* Sources */,
+				309A7E6F20079B8F001B018A /* Frameworks */,
+				309A7E7020079B8F001B018A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Cup 2018";
+			productName = "My Cup 2018";
+			productReference = 309A7E7220079B8F001B018A /* My Cup 2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+		309A7E8D20079B8F001B018A /* My Cup 2018Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309A7EA520079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018Tests" */;
+			buildPhases = (
+				309A7E8A20079B8F001B018A /* Sources */,
+				309A7E8B20079B8F001B018A /* Frameworks */,
+				309A7E8C20079B8F001B018A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309A7E9020079B8F001B018A /* PBXTargetDependency */,
+			);
+			name = "My Cup 2018Tests";
+			productName = "My Cup 2018Tests";
+			productReference = 309A7E8E20079B8F001B018A /* My Cup 2018Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		309A7E9820079B8F001B018A /* My Cup 2018UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309A7EA820079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018UITests" */;
+			buildPhases = (
+				309A7E9520079B8F001B018A /* Sources */,
+				309A7E9620079B8F001B018A /* Frameworks */,
+				309A7E9720079B8F001B018A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309A7E9B20079B8F001B018A /* PBXTargetDependency */,
+			);
+			name = "My Cup 2018UITests";
+			productName = "My Cup 2018UITests";
+			productReference = 309A7E9920079B8F001B018A /* My Cup 2018UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309A7E6A20079B8F001B018A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex dos Santos";
+				TargetAttributes = {
+					309A7E7120079B8F001B018A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					309A7E8D20079B8F001B018A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309A7E7120079B8F001B018A;
+					};
+					309A7E9820079B8F001B018A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309A7E7120079B8F001B018A;
+					};
+				};
+			};
+			buildConfigurationList = 309A7E6D20079B8F001B018A /* Build configuration list for PBXProject "My Cup 2018" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 309A7E6920079B8F001B018A;
+			productRefGroup = 309A7E7320079B8F001B018A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309A7E7120079B8F001B018A /* My Cup 2018 */,
+				309A7E8D20079B8F001B018A /* My Cup 2018Tests */,
+				309A7E9820079B8F001B018A /* My Cup 2018UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309A7E7020079B8F001B018A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309A7E8820079B8F001B018A /* LaunchScreen.storyboard in Resources */,
+				309A7E8520079B8F001B018A /* Assets.xcassets in Resources */,
+				309A7E8020079B8F001B018A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E8C20079B8F001B018A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E9720079B8F001B018A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309A7E6E20079B8F001B018A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309A7E7D20079B8F001B018A /* ViewController.m in Sources */,
+				309A7E7A20079B8F001B018A /* AppDelegate.m in Sources */,
+				309A7E7720079B8F001B018A /* main.m in Sources */,
+				309A7E8320079B8F001B018A /* My_Cup_2018.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E8A20079B8F001B018A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309A7E9320079B8F001B018A /* My_Cup_2018Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309A7E9520079B8F001B018A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309A7E9E20079B8F001B018A /* My_Cup_2018UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309A7E9020079B8F001B018A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309A7E7120079B8F001B018A /* My Cup 2018 */;
+			targetProxy = 309A7E8F20079B8F001B018A /* PBXContainerItemProxy */;
+		};
+		309A7E9B20079B8F001B018A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309A7E7120079B8F001B018A /* My Cup 2018 */;
+			targetProxy = 309A7E9A20079B8F001B018A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		309A7E7E20079B8F001B018A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309A7E7F20079B8F001B018A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		309A7E8620079B8F001B018A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309A7E8720079B8F001B018A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309A7EA020079B8F001B018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		309A7EA120079B8F001B018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309A7EA320079B8F001B018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Cup 2018/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309A7EA420079B8F001B018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Cup 2018/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		309A7EA620079B8F001B018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Cup 2018Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Cup 2018.app/My Cup 2018";
+			};
+			name = Debug;
+		};
+		309A7EA720079B8F001B018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Cup 2018Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Cup 2018.app/My Cup 2018";
+			};
+			name = Release;
+		};
+		309A7EA920079B8F001B018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Cup 2018UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Cup 2018";
+			};
+			name = Debug;
+		};
+		309A7EAA20079B8F001B018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Cup 2018UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Cup 2018";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309A7E6D20079B8F001B018A /* Build configuration list for PBXProject "My Cup 2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309A7EA020079B8F001B018A /* Debug */,
+				309A7EA120079B8F001B018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309A7EA220079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309A7EA320079B8F001B018A /* Debug */,
+				309A7EA420079B8F001B018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309A7EA520079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309A7EA620079B8F001B018A /* Debug */,
+				309A7EA720079B8F001B018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309A7EA820079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309A7EA920079B8F001B018A /* Debug */,
+				309A7EAA20079B8F001B018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */,
+			);
+			currentVersion = 309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */;
+			path = My_Cup_2018.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 309A7E6A20079B8F001B018A /* Project object */;
+}
