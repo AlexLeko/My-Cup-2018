@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>My Cup 2018.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>309A7E7120079B8F001B018A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>309A7E8D20079B8F001B018A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>309A7E9820079B8F001B018A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

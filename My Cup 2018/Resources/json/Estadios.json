@@ -1,0 +1,124 @@
+{
+    "estadios": [
+                 {
+                 "descricao": "Estádio de Kaliningrado",
+                 "capacidade": "35212",
+                 "cidade": "Kaliningrad",
+                 "url_imagem": "https://image.ibb.co/gBy9pG/Kaliningrad_Stadium.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=VQhWCXtSb-w",
+                 "latitude": "54.698293",
+                 "longitude": "20.533880",
+                 "informacao": "Estádio Kaliningrado foi construído para a Rússia 2018 na Ilha Oktyabrsky, mesmo no coração de Kaliningrado. A seleção de Kaliningrado como cidade anfitriã levou as autoridades locais a desenvolver a ilha, que há muitos séculos foi uma região selvagem, deixada praticamente intocada. Após a Copa do Mundo de 2018, um novo empreendimento residencial será construído em torno do estádio, com parques, cais e aterros ao lado do rio Pregola. Kaliningrad Stadium é um local multiuso. Além de jogos de futebol, ele irá hospedar outros eventos e concertos esportivos. Depois da Rússia 2018, o FC Baltika Kaliningrad vai jogar seus jogos em casa no estádio."
+                 },
+                 {
+                 "descricao": "Arena Volgogrado",
+                 "capacidade": "45568",
+                 "cidade": "Volgograd",
+                 "url_imagem": "https://image.ibb.co/ggxDGw/Volgograd_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=tZEXL0-IGw0",
+                 "latitude": "48.734692",
+                 "longitude": "44.548265",
+                 "informacao": "Arena Volgograd foi construída no local do estádio Central, ao pé do memorial de guerra Mamayev Kurgan. A localização do estádio anterior é uma Meca para partidários locais de futebol, com os mais experientes entre eles capazes de se lembrar da vitória européia sobre o Manchester United e batalhas domésticas com o Spartak Moscou. A fachada do estádio assume a forma de um cone truncado invertido com uma estrutura de rede aberta, que empresta todo o edifício a uma solidez monumental. O design para a fachada suporta e os quebra-ventos encarnam os aspectos de uma exibição do fogo-de-artifício do Dia da Vitória. A maneira especial em que o telhado do estádio foi construído, com cabos remanescentes dos raios da roda em uma bicicleta, empresta à arena um elemento extra de arejamento. Depois da Rússia 2018, o estádio será o lar do FC Rotor, que no passado terminou nos três primeiros no campeonato russo."
+                 },
+                 {
+                 "descricao": "Estádio Central",
+                 "capacidade": "35696",
+                 "cidade": "Yekaterinburg",
+                 "url_imagem": "https://image.ibb.co/jco9pG/Ekaterinburg_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=9meHIrqCWcQ",
+                 "latitude": "56.832655",
+                 "longitude": "60.573626",
+                 "informacao": "Início de um dos mais antigos clubes de futebol do país, FC Ural, o estádio foi construído em 1953. Desde então, foi remodelado em diversas ocasiões. A última dessas remotas foi feita para a Copa do Mundo da FIFA 2018 ™. Em cada ocasião, no entanto, a fachada histórica do estádio permaneceu intocada, como um legado arquitetônico. As características arquitetônicas e decorativas típicas do neoclasicismo soviético foram utilizadas genericamente na construção das arquibancadas, juntamente com arte decorativa sob a forma de esculturas, vasos e faixas. O estádio mantém sua fachada histórica reconhecível, embora tenha sido instalado um teto e barracas temporárias para a Rússia 2018. FC Ural continuará a usar o estádio para os jogos em casa."
+                 },
+                 {
+                 "descricao": "Estádio Olímpico de Fisht",
+                 "capacidade": "47659",
+                 "cidade": "Sochi",
+                 "url_imagem": "https://image.ibb.co/bt44Ob/Fisht_Stadium.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=0kAcwMKMoEg",
+                 "latitude": "43.402105",
+                 "longitude": "39.956110",
+                 "informacao": "Localizada no Parque Olímpico no Vale de Imeretin, em Sochi, o Estádio Fisht foi construído para as Olimpíadas de Inverno em fevereiro de 2014 e recebeu as cerimônias de abertura e encerramento. O estádio foi reconstruído para a Copa do Mundo da FIFA 2018 e foi reaberto em 2017, onde o local organizou as partidas da Copa das Confederações da FIFA. Fisht Stadium foi originalmente chamado de Mount Fisht, um pico na escala do Cáucaso de montanhas. No idioma local, Adygeyan, 'fisht' significa 'cabeça branca'. A silhueta da arena, projetada por arquitetos britânicos, lembra um pico da montanha coberto de neve. Sob os planos atuais, a seleção russa vai realizar acampamentos de treinamento e jogar alguns dos seus jogos competitivos e amigáveis em Sochi. Fisht Stadium também irá hospedar uma série de outros eventos de participação em massa. Localizado nas proximidades é o circuito de Fórmula 1 de Sochi."
+                 },
+                 {
+                 "descricao": "Arena Kazan",
+                 "capacidade": "45000",
+                 "cidade": "Kazan",
+                 "url_imagem": "https://image.ibb.co/bS17bw/Kazan_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=d1B3aZFoZE0",
+                 "latitude": "55.821043",
+                 "longitude": "49.161008",
+                 "informacao": "Kazan Arena foi construída em preparação para os Jogos da Universidade Mundial de Verão em 2013, quando recebeu as cerimônias de abertura e encerramento. Um campo de futebol foi instalado quando os jogos acabaram. O estádio hospedou sua primeira partida em agosto de 2013, quando Rubin Kazan desenhou 1: 1 com Lokomotiv Moscou e também atuou como um local da FIFA Confederations Cup 2017. Kazan Arena foi desenhado pela mesma firma de arquitetos como Wembley Stadium e Emirates Stadium, em Londres. Tem um design único, que combina perfeitamente com a paisagem urbana de Kazan. Visto de cima, a arena, que fica nas margens do rio Kazanka, se assemelha a um lírio-da-água. Kazan Arena será o lar de Rubin Kazan. No verão de 2015, hospedou algumas das competições no World Aquatics Championships. Foram construídas duas piscinas de 50 metros para esse evento. Além de futebol e eventos esportivos, o estádio receberá toda uma série de shows de entretenimento, concertos e eventos culturais."
+                 },
+                 {
+                 "descricao": "Estádio de Níjni Novgorod",
+                 "capacidade": "45331",
+                 "cidade": "Nizhny Novgorod",
+                 "url_imagem": "https://image.ibb.co/c8vppG/Nizhny_Novgorod_Stadium.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=b_OIqKAT6LQ",
+                 "latitude": "56.337751",
+                 "longitude": "43.963009",
+                 "informacao": "estádio Nizhny Novgorod está sendo construído em um dos locais mais pitorescos da cidade, na confluência dos rios Volga e Oka, perto da Catedral Alexander Nevsky. A área oferece uma vista maravilhosa do Kremlin de Nizhny Novgorod, situado do outro lado da Oka. Nizhny Novgorod Stadium é inspirado em aspectos da natureza na região de Volga - água e vento. Ao mesmo tempo, dada a sua localização perto dos distritos mais históricos da cidade, o prédio deve ter uma silhueta que seja restrita e severa. Sua estrutura básica leve, composta de suportes triangulares finos dispostos em um círculo, suporta uma fachada ondulada semi-transparente que esconde a tigela do estádio. O prédio é cercado por uma calçada conectada por escadas inclinada a uma tangente, destacando o fluxo do estádio. À noite, as várias fachadas serão iluminadas, destacando-se. O estádio será o lar do clube local Olympiets Nizhny Novgorod."
+                 },
+                 {
+                 "descricao": "Estádio Lujniki",
+                 "capacidade": "81006",
+                 "cidade": "Moscow",
+                 "url_imagem": "https://image.ibb.co/mj729G/Luzhniki_Stadium.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=y8TYnioTk9g",
+                 "latitude": "55.715943",
+                 "longitude": "37.553717",
+                 "informacao": "O principal estádio para a Rússia 2018 foi originalmente construído para sediar o primeiro Spartakiad de verão em todo o país em 1956. Desde então, o Estádio Luzhniki acolheu uma grande variedade de grandes eventos esportivos e culturais, incluindo as Olimpíadas de Verão de 1980, campeonatos mundiais em hóquei no gelo, atletismo e rugby e concertos com alguns dos maiores músicos do mundo. Durante este período, no entanto, o futebol tem desempenhado um papel especial, tendo o estádio hospedado mais de 3.000 jogos. O Estádio Luzhniki é o local da maioria dos jogos disputados pelo time de futebol nacional russo, e em várias ocasiões também atuou como o estádio do país para os clubes Spartak, CSKA e Torpedo de Moscou. Também organizou as finais das duas principais competições no futebol europeu: a final da Taça UEFA de 1999 (agora conhecida como a Europa League), na qual o italiano Parma venceu o clube francês Olympique Marseille 3: 0 e os campeões da UEFA Final da liga em 2008, quando, com a chuva e com 74 mil espectadores olhando, um assunto totalmente inglês terminou com o Manchester United derrotando o Chelsea em um tiroteio dramático. Trabalho de design para reconstruir o Estádio Luzhniki para a Rússia 2018 começou em 2013. Um dos aspectos cruciais do projeto foi preservar a fachada histórica do estádio, que se tornou um dos verdadeiros marcos de Moscou. No interior, o estádio foi totalmente remodelado: a pista de atletismo foi removida, as estações se aproximaram do campo e tornaram-se retangulares, o gradiente ajustado e duas camadas extra adicionadas. A capacidade do Estádio Luzhniki aumentou de 78 para 80.000. Legacy Luzhniki Stadium manterá seu status como o principal estádio de futebol do país e será o anfitrião das partidas da seleção russa."
+                 },
+                 {
+                 "descricao": "Estádio de Samara",
+                 "capacidade": "44807",
+                 "cidade": "Samara",
+                 "url_imagem": "https://image.ibb.co/kW5dib/Samara_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=w4EgBWdgNRk",
+                 "latitude": "53.278138",
+                 "longitude": "50.237577",
+                 "informacao": "Samara Arena será construído no distrito de Radiotsentr. Sob os planos atuais, o estádio será cercado por um desenvolvimento residencial e infra-estrutura de boa qualidade. A construção do estádio começou oficialmente em 21 de julho de 2014. Conceito de design de Samara Arena é dominado pelo tema do espaço, como uma homenagem às tradições da região, e seu setor aeroespacial renome. A forma do estádio será semelhante a uma cúpula de vidro. Uma estrutura básica leve e metálica de suporte de suporte de peso fornecerá uma cobertura sobre as arquibancadas, que terá 60 metros de altura. À noite, toda a estrutura será iluminada, enfatizando o design expressivo do estádio. Depois da Rússia 2018, o estádio será o lar do FC Krylya Sovetov, um clube que fez várias aparições nas competições de clubes da Europa."
+                 },
+                 {
+                 "descricao": "Arena Rostov",
+                 "capacidade": "45145",
+                 "cidade": "Rostov-on-Don",
+                 "url_imagem": "https://image.ibb.co/jTV0ww/Rostov_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=TwEAMW2y-DU",
+                 "latitude": "47.209533",
+                 "longitude": "39.737638",
+                 "informacao": "Rostov Arena está situado na margem esquerda do rio Don. Impulsionada pela sua seleção como cidade anfitriã, Rostov-on-Don poderá expandir-se, desenvolvendo a sua margem esquerda, onde as instalações e restaurantes turísticos locais tradicionalmente atraíram os locais e os visitantes. O design original da Design Rostov Arena combina harmoniosamente na paisagem pitoresca. A forma do telhado da arena imita os meandros do rio Don. As alturas variadas dos stands permitem aos espectadores saborear não só o que está acontecendo no campo, mas também para apreciar as vistas de Rostov-on-Don. Do banco esquerdo do Don, a cidade parece particularmente bonita. FC Rostov, vencedores da Copa da Rússia de 2014, vai jogar seus jogos em casa no estádio."
+                 },
+                 {
+                 "descricao": "Estádio do Spartak",
+                 "capacidade": "44000",
+                 "cidade": "Moscow",
+                 "url_imagem": "https://image.ibb.co/b9adib/Spartak_Stadium.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=9bKCSy0rzts",
+                 "latitude": "55.817801",
+                 "longitude": "37.440392",
+                 "informacao": "Spartak Moscou, o 'time popular', é um dos clubes de futebol mais populares da Rússia. E, no entanto, desde que foi fundada em 1922, teve que fazer sem o seu próprio estádio. O clube jogou jogos em casa nos estádios Dynamo, Luzhniki e Lokomotiv de Moscou, na Arena Khimki, apenas fora de Moscou e até mesmo em Ekaterinburg. Na primavera de 2010, no local do antigo campo de aviação de Moscou, no distrito de Tushino, o Spartak começou a construir seu próprio estádio de 45 mil lugares. O local organizou o seu primeiro jogo em 5 de setembro de 2014, quando o Spartak desenhou 1: 1 com a Estrela Vermelha de Belgrado e também foi um estádio da Copa FIFA Confederação 2017. A aparência do Design Spartak Stadium é uma questão de grande orgulho. Sua fachada assume a forma de mala direta consistindo de centenas de pequenos diamantes que representam o logotipo do Spartak. A fachada pode ser alterada dependendo da equipe que está jogando. Para os jogos do Spartak, a arena é banhada em vermelho e branco; Quando a equipe nacional está na cidade, ele muda para as cores da bandeira russa. O Spartak Stadium também abriga o museu do Spartak Moscou, o fã-clube oficial e a loja do clube. Uma nova estação de metro abriu nas proximidades. Uma vez que a Rússia 2018 acabou, um novo desenvolvimento residencial será construído em torno do estádio do Spartak."
+                 },
+                 {
+                 "descricao": "Zenit Arena",
+                 "capacidade": "68134",
+                 "cidade": "Petersburg",
+                 "url_imagem": "https://image.ibb.co/dy9h9G/Saint_Petersburg_Stadium_Est_dio_Krestovsky.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=EwTEaYjXDfU",
+                 "latitude": "59.972928",
+                 "longitude": "30.220408",
+                 "informacao": "Saint Petersburg's new, super-modern stadium is built on the site of the Kirov Stadium on Krestovsky Island, which, in its day, was one of the country's largest stadiums, with a capacity of 110,000. The tender to build Saint Petersburg Stadium was won by the renowned Japanese architect Kisho Kurosawa. The stadium hosted the Opening Match and Final of the 2017 FIFA Confederations Cup.The architect's vision for Saint Petersburg Stadium was of a spaceship that has landed on the shores of the Gulf of Finland. The seven-storey building is 79 metres high. Technologically, Saint Petersburg Stadium is one of the world's most modern arenas. Equipped with a retractable roof and a sliding pitch, it's able to host any type of event at any time of year - even in winter, the temperature inside the stadium is 15 degrees Celsius.The stadium is home to Zenit St. Petersburg. It is able to host many different types of events, from concerts and shows to competitions in a whole range of sports. In 2020, the arena will host three matches in the group stage of Euro 2020, as well as one of the competition's quarter-finals."
+                 },
+                 {
+                 "descricao": "Arena Mordovia",
+                 "capacidade": "44442",
+                 "cidade": "Saransk",
+                 "url_imagem": "https://image.ibb.co/jRB7bw/Mordovia_Arena.jpg",
+                 "url_video": "https://www.youtube.com/watch?v=P9eozj_mit0",
+                 "latitude": "54.181892",
+                 "longitude": "45.203694",
+                 "informacao": "trabalho na Arena Mordovia começou em 2010, o 1000º aniversário da unificação do povo mordoviano com outros grupos étnicos russos. A arena está localizada no centro da cidade, na margem do rio Insar. O estádio foi projetado na forma de um oval. Sua brilhante gama de cores, combinando laranja, vermelho e branco, honra a paleta de cores distintivas das artes e ofícios de Mordovia. Após a Rússia 2018, algumas das estruturas temporárias do estádio serão demolidas, elevando a capacidade para 25 mil. Isso tornará a arena mais efetiva no futuro, com o espaço desocupado sendo usado para o vôlei indoor, basquete e quadras de tênis, bem como centros de fitness. O estádio será o lar de FC Mordovia."
+                 }
+                 ]
+}

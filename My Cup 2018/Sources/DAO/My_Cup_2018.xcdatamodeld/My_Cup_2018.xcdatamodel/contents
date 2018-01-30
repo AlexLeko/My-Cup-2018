@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="EstadioCD" representedClassName="EstadioCD" syncable="YES" codeGenerationType="class">
+        <attribute name="capacidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="informacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="url_imagem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_video" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FaseGrupoCD" representedClassName="FaseGrupoCD" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diaSemana" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="escudoA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="escudoB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estadio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grupo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="LoginCD" representedClassName="LoginCD" syncable="YES" codeGenerationType="class">
+        <attribute name="senha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MataMataCD" representedClassName="MataMataCD" syncable="YES" codeGenerationType="class">
+        <attribute name="cidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diaSemana" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estadio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeroPartida" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="timeA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EstadioCD" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="LoginCD" positionX="-54" positionY="54" width="128" height="90"/>
+        <element name="MataMataCD" positionX="-54" positionY="54" width="128" height="180"/>
+        <element name="FaseGrupoCD" positionX="-45" positionY="99" width="128" height="195"/>
+    </elements>
+</model>

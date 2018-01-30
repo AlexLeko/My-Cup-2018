@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[LKLoginService validarUsuario:]:LKLoginService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[LKLoginService cadastrarUsuario:]:LKLoginService.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[LKEstadioService getEstadios:callBack:]:LKEstadioService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "listaEstadios.count == 0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LKEstadiosController tableView:cellForRowAtIndexPath:]:LKEstadiosController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.descricaoEstadio.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LKLoginViewController prepareForSegue:sender:]:LKLoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.usuario">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

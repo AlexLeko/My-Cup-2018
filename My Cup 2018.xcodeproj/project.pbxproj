@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		309A7E7720079B8F001B018A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7620079B8F001B018A /* main.m */; };
-		309A7E7A20079B8F001B018A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7920079B8F001B018A /* AppDelegate.m */; };
-		309A7E7D20079B8F001B018A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E7C20079B8F001B018A /* ViewController.m */; };
-		309A7E8020079B8F001B018A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E7E20079B8F001B018A /* Main.storyboard */; };
-		309A7E8320079B8F001B018A /* My_Cup_2018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */; };
-		309A7E8520079B8F001B018A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E8420079B8F001B018A /* Assets.xcassets */; };
-		309A7E8820079B8F001B018A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7E8620079B8F001B018A /* LaunchScreen.storyboard */; };
+		303EA1A62007D871008F5985 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 303EA1A52007D871008F5985 /* Info.plist */; };
+		303EA1AC20090B37008F5985 /* Estadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EA1AB20090B37008F5985 /* Estadio.m */; };
+		303EA1D1200913D6008F5985 /* LKEstadioService.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EA1D0200913D6008F5985 /* LKEstadioService.m */; };
+		303EA1DC200924E0008F5985 /* LKEstadioDBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EA1DB200924E0008F5985 /* LKEstadioDBCoreData.m */; };
+		303EA1E2200929D6008F5985 /* My_Cup_2018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 303EA1E0200929D6008F5985 /* My_Cup_2018.xcdatamodeld */; };
+		304A1589200E835000F2378D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304A1588200E835000F2378D /* MapKit.framework */; };
+		307EFF0D200F76D80046A198 /* LKLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF0C200F76D80046A198 /* LKLoginService.m */; };
+		307EFF10200F77340046A198 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF0F200F77340046A198 /* Usuario.m */; };
+		307EFF20200FCF840046A198 /* LKLoginDBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF1F200FCF840046A198 /* LKLoginDBCoreData.m */; };
+		307EFF30200FD9320046A198 /* LKOitavas.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF2F200FD9320046A198 /* LKOitavas.m */; };
+		307EFF37200FDA7A0046A198 /* LKOitavasServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF36200FDA7A0046A198 /* LKOitavasServices.m */; };
+		307EFF3E200FDB4B0046A198 /* LKOitavasDBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF3D200FDB4B0046A198 /* LKOitavasDBCoreData.m */; };
+		307EFF3F200FE8990046A198 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307EFEFE200EA0BC0046A198 /* AVFoundation.framework */; };
+		307EFF4620110CA60046A198 /* LKFaseGrupoDBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF4520110CA60046A198 /* LKFaseGrupoDBCoreData.m */; };
+		307EFF492011100D0046A198 /* FaseGrupo.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF482011100D0046A198 /* FaseGrupo.m */; };
+		307EFF50201115080046A198 /* LKFaseGrupoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF4F201115080046A198 /* LKFaseGrupoService.m */; };
+		307EFFB0201143190046A198 /* LKFaseGrupoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF94201143190046A198 /* LKFaseGrupoCell.m */; };
+		307EFFB1201143190046A198 /* LKFaseGrupoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF96201143190046A198 /* LKFaseGrupoTableViewController.m */; };
+		307EFFB2201143190046A198 /* LKEstadioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF9A201143190046A198 /* LKEstadioCell.m */; };
+		307EFFB3201143190046A198 /* LKDetalhesEstadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF9C201143190046A198 /* LKDetalhesEstadioViewController.m */; };
+		307EFFB4201143190046A198 /* LKEstadiosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFF9E201143190046A198 /* LKEstadiosController.m */; };
+		307EFFB5201143190046A198 /* LKMapaEstadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFA0201143190046A198 /* LKMapaEstadioViewController.m */; };
+		307EFFB6201143190046A198 /* LKVideoEstadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFA2201143190046A198 /* LKVideoEstadioViewController.m */; };
+		307EFFB7201143190046A198 /* LKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFA5201143190046A198 /* LKLoginViewController.m */; };
+		307EFFB8201143190046A198 /* LKMataMataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFA9201143190046A198 /* LKMataMataTableViewCell.m */; };
+		307EFFB9201143190046A198 /* LKMataMataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307EFFAA201143190046A198 /* LKMataMataTableViewCell.xib */; };
+		307EFFBA201143190046A198 /* LKOitavasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFAC201143190046A198 /* LKOitavasTableViewController.m */; };
+		307EFFBB201143190046A198 /* LKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EFFAF201143190046A198 /* LKMenuViewController.m */; };
+		308601D2200D318A0005FAE4 /* Estadios.json in Resources */ = {isa = PBXBuildFile; fileRef = 308601D1200D318A0005FAE4 /* Estadios.json */; };
 		309A7E9320079B8F001B018A /* My_Cup_2018Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E9220079B8F001B018A /* My_Cup_2018Tests.m */; };
 		309A7E9E20079B8F001B018A /* My_Cup_2018UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7E9D20079B8F001B018A /* My_Cup_2018UITests.m */; };
+		309A7EC720079F83001B018A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A7EB720079F83001B018A /* Assets.xcassets */; };
+		309A7EC820079F83001B018A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7EBF20079F83001B018A /* AppDelegate.m */; };
+		309A7EC920079F83001B018A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A7EC020079F83001B018A /* main.m */; };
+		309A7ECA20079F83001B018A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7EC420079F83001B018A /* LaunchScreen.storyboard */; };
+		309A7ECB20079F83001B018A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309A7EC520079F83001B018A /* Main.storyboard */; };
+		30B9EAF82015F79B009A45E5 /* front-desk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30B9EAF62015F79A009A45E5 /* front-desk.mp3 */; };
+		30B9EAF92015F79B009A45E5 /* ice-cubes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30B9EAF72015F79A009A45E5 /* ice-cubes.mp3 */; };
+		30B9EAFB201677AC009A45E5 /* FaseGrupo.json in Resources */ = {isa = PBXBuildFile; fileRef = 30B9EAFA201677AC009A45E5 /* FaseGrupo.json */; };
+		AD3A838320128CC3001A7A07 /* LKVideoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A838220128CC3001A7A07 /* LKVideoUtils.m */; };
+		AD3A838620128CDD001A7A07 /* AudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A838520128CDD001A7A07 /* AudioUtil.m */; };
+		AD3A83932012930C001A7A07 /* vinhetaFox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD3A838F2012930C001A7A07 /* vinhetaFox.mp3 */; };
+		F2EBD2CE2F2BD0E173B9DC2C /* Pods_My_Cup_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE245A061479A5C0E312519 /* Pods_My_Cup_2018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +70,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303EA1A52007D871008F5985 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303EA1AA20090B37008F5985 /* Estadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estadio.h; sourceTree = "<group>"; };
+		303EA1AB20090B37008F5985 /* Estadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estadio.m; sourceTree = "<group>"; };
+		303EA1CF200913D6008F5985 /* LKEstadioService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKEstadioService.h; sourceTree = "<group>"; };
+		303EA1D0200913D6008F5985 /* LKEstadioService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKEstadioService.m; sourceTree = "<group>"; };
+		303EA1DA200924E0008F5985 /* LKEstadioDBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKEstadioDBCoreData.h; sourceTree = "<group>"; };
+		303EA1DB200924E0008F5985 /* LKEstadioDBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKEstadioDBCoreData.m; sourceTree = "<group>"; };
+		303EA1E1200929D6008F5985 /* My_Cup_2018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Cup_2018.xcdatamodel; sourceTree = "<group>"; };
+		304A1588200E835000F2378D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		307EFEFE200EA0BC0046A198 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		307EFF0B200F76D80046A198 /* LKLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLoginService.h; sourceTree = "<group>"; };
+		307EFF0C200F76D80046A198 /* LKLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLoginService.m; sourceTree = "<group>"; };
+		307EFF0E200F77340046A198 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		307EFF0F200F77340046A198 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		307EFF1E200FCF840046A198 /* LKLoginDBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLoginDBCoreData.h; sourceTree = "<group>"; };
+		307EFF1F200FCF840046A198 /* LKLoginDBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLoginDBCoreData.m; sourceTree = "<group>"; };
+		307EFF2E200FD9320046A198 /* LKOitavas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOitavas.h; sourceTree = "<group>"; };
+		307EFF2F200FD9320046A198 /* LKOitavas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOitavas.m; sourceTree = "<group>"; };
+		307EFF35200FDA7A0046A198 /* LKOitavasServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOitavasServices.h; sourceTree = "<group>"; };
+		307EFF36200FDA7A0046A198 /* LKOitavasServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOitavasServices.m; sourceTree = "<group>"; };
+		307EFF3C200FDB4B0046A198 /* LKOitavasDBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOitavasDBCoreData.h; sourceTree = "<group>"; };
+		307EFF3D200FDB4B0046A198 /* LKOitavasDBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOitavasDBCoreData.m; sourceTree = "<group>"; };
+		307EFF4420110CA60046A198 /* LKFaseGrupoDBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKFaseGrupoDBCoreData.h; sourceTree = "<group>"; };
+		307EFF4520110CA60046A198 /* LKFaseGrupoDBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKFaseGrupoDBCoreData.m; sourceTree = "<group>"; };
+		307EFF472011100D0046A198 /* FaseGrupo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaseGrupo.h; sourceTree = "<group>"; };
+		307EFF482011100D0046A198 /* FaseGrupo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaseGrupo.m; sourceTree = "<group>"; };
+		307EFF4E201115080046A198 /* LKFaseGrupoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKFaseGrupoService.h; sourceTree = "<group>"; };
+		307EFF4F201115080046A198 /* LKFaseGrupoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKFaseGrupoService.m; sourceTree = "<group>"; };
+		307EFF93201143190046A198 /* LKFaseGrupoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKFaseGrupoCell.h; sourceTree = "<group>"; };
+		307EFF94201143190046A198 /* LKFaseGrupoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKFaseGrupoCell.m; sourceTree = "<group>"; };
+		307EFF95201143190046A198 /* LKFaseGrupoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKFaseGrupoTableViewController.h; sourceTree = "<group>"; };
+		307EFF96201143190046A198 /* LKFaseGrupoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKFaseGrupoTableViewController.m; sourceTree = "<group>"; };
+		307EFF99201143190046A198 /* LKEstadioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKEstadioCell.h; sourceTree = "<group>"; };
+		307EFF9A201143190046A198 /* LKEstadioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKEstadioCell.m; sourceTree = "<group>"; };
+		307EFF9B201143190046A198 /* LKDetalhesEstadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDetalhesEstadioViewController.h; sourceTree = "<group>"; };
+		307EFF9C201143190046A198 /* LKDetalhesEstadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDetalhesEstadioViewController.m; sourceTree = "<group>"; };
+		307EFF9D201143190046A198 /* LKEstadiosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKEstadiosController.h; sourceTree = "<group>"; };
+		307EFF9E201143190046A198 /* LKEstadiosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKEstadiosController.m; sourceTree = "<group>"; };
+		307EFF9F201143190046A198 /* LKMapaEstadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMapaEstadioViewController.h; sourceTree = "<group>"; };
+		307EFFA0201143190046A198 /* LKMapaEstadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMapaEstadioViewController.m; sourceTree = "<group>"; };
+		307EFFA1201143190046A198 /* LKVideoEstadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKVideoEstadioViewController.h; sourceTree = "<group>"; };
+		307EFFA2201143190046A198 /* LKVideoEstadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKVideoEstadioViewController.m; sourceTree = "<group>"; };
+		307EFFA4201143190046A198 /* LKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLoginViewController.h; sourceTree = "<group>"; };
+		307EFFA5201143190046A198 /* LKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLoginViewController.m; sourceTree = "<group>"; };
+		307EFFA8201143190046A198 /* LKMataMataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMataMataTableViewCell.h; sourceTree = "<group>"; };
+		307EFFA9201143190046A198 /* LKMataMataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMataMataTableViewCell.m; sourceTree = "<group>"; };
+		307EFFAA201143190046A198 /* LKMataMataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKMataMataTableViewCell.xib; sourceTree = "<group>"; };
+		307EFFAB201143190046A198 /* LKOitavasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOitavasTableViewController.h; sourceTree = "<group>"; };
+		307EFFAC201143190046A198 /* LKOitavasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOitavasTableViewController.m; sourceTree = "<group>"; };
+		307EFFAE201143190046A198 /* LKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMenuViewController.h; sourceTree = "<group>"; };
+		307EFFAF201143190046A198 /* LKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMenuViewController.m; sourceTree = "<group>"; };
+		308601D1200D318A0005FAE4 /* Estadios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Estadios.json; sourceTree = "<group>"; };
 		309A7E7220079B8F001B018A /* My Cup 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Cup 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		309A7E7620079B8F001B018A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		309A7E7820079B8F001B018A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		309A7E7920079B8F001B018A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		309A7E7B20079B8F001B018A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		309A7E7C20079B8F001B018A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		309A7E7F20079B8F001B018A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Cup_2018.xcdatamodel; sourceTree = "<group>"; };
-		309A7E8420079B8F001B018A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		309A7E8720079B8F001B018A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		309A7E8920079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309A7E8E20079B8F001B018A /* My Cup 2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Cup 2018Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		309A7E9220079B8F001B018A /* My_Cup_2018Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Cup_2018Tests.m; sourceTree = "<group>"; };
 		309A7E9420079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309A7E9920079B8F001B018A /* My Cup 2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Cup 2018UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		309A7E9D20079B8F001B018A /* My_Cup_2018UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Cup_2018UITests.m; sourceTree = "<group>"; };
 		309A7E9F20079B8F001B018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309A7EB720079F83001B018A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		309A7EBE20079F83001B018A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309A7EBF20079F83001B018A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309A7EC020079F83001B018A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309A7EC420079F83001B018A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		309A7EC520079F83001B018A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		30B9EAF62015F79A009A45E5 /* front-desk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "front-desk.mp3"; sourceTree = "<group>"; };
+		30B9EAF72015F79A009A45E5 /* ice-cubes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ice-cubes.mp3"; sourceTree = "<group>"; };
+		30B9EAFA201677AC009A45E5 /* FaseGrupo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FaseGrupo.json; sourceTree = "<group>"; };
+		8DE245A061479A5C0E312519 /* Pods_My_Cup_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Cup_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A5A0E281BE9D8F3C883070 /* Pods-My Cup 2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Cup 2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Cup 2018/Pods-My Cup 2018.debug.xcconfig"; sourceTree = "<group>"; };
+		AD3A838120128CC3001A7A07 /* LKVideoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKVideoUtils.h; sourceTree = "<group>"; };
+		AD3A838220128CC3001A7A07 /* LKVideoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKVideoUtils.m; sourceTree = "<group>"; };
+		AD3A838420128CDD001A7A07 /* AudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtil.h; sourceTree = "<group>"; };
+		AD3A838520128CDD001A7A07 /* AudioUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtil.m; sourceTree = "<group>"; };
+		AD3A838F2012930C001A7A07 /* vinhetaFox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vinhetaFox.mp3; sourceTree = "<group>"; };
+		FEAA319072CDE7FC8BFAF4ED /* Pods-My Cup 2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Cup 2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Cup 2018/Pods-My Cup 2018.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +153,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307EFF3F200FE8990046A198 /* AVFoundation.framework in Frameworks */,
+				304A1589200E835000F2378D /* MapKit.framework in Frameworks */,
+				F2EBD2CE2F2BD0E173B9DC2C /* Pods_My_Cup_2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +176,236 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303EA1AD20090DF4008F5985 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		303EA1CE200913BB008F5985 /* Estadio */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1CF200913D6008F5985 /* LKEstadioService.h */,
+				303EA1D0200913D6008F5985 /* LKEstadioService.m */,
+			);
+			path = Estadio;
+			sourceTree = "<group>";
+		};
+		303EA1D4200922C5008F5985 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF4320110C870046A198 /* FaseGrupo */,
+				307EFF38200FDAE10046A198 /* Oitavas */,
+				303EA1D5200922C5008F5985 /* Estadio */,
+				303EA1D6200922C5008F5985 /* Login */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		303EA1D5200922C5008F5985 /* Estadio */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1E0200929D6008F5985 /* My_Cup_2018.xcdatamodeld */,
+				303EA1DA200924E0008F5985 /* LKEstadioDBCoreData.h */,
+				303EA1DB200924E0008F5985 /* LKEstadioDBCoreData.m */,
+			);
+			path = Estadio;
+			sourceTree = "<group>";
+		};
+		303EA1D6200922C5008F5985 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF1E200FCF840046A198 /* LKLoginDBCoreData.h */,
+				307EFF1F200FCF840046A198 /* LKLoginDBCoreData.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		304A1587200E835000F2378D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				307EFEFE200EA0BC0046A198 /* AVFoundation.framework */,
+				304A1588200E835000F2378D /* MapKit.framework */,
+				8DE245A061479A5C0E312519 /* Pods_My_Cup_2018.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307EFEF7200EA07B0046A198 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				307EFEF8200EA07B0046A198 /* Audio */,
+				307EFEF9200EA07B0046A198 /* NSString */,
+				307EFEFA200EA07B0046A198 /* Video */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		307EFEF8200EA07B0046A198 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				AD3A838420128CDD001A7A07 /* AudioUtil.h */,
+				AD3A838520128CDD001A7A07 /* AudioUtil.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		307EFEF9200EA07B0046A198 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		307EFEFA200EA07B0046A198 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				AD3A838120128CC3001A7A07 /* LKVideoUtils.h */,
+				AD3A838220128CC3001A7A07 /* LKVideoUtils.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		307EFF0A200F76A90046A198 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF0B200F76D80046A198 /* LKLoginService.h */,
+				307EFF0C200F76D80046A198 /* LKLoginService.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		307EFF34200FDA7A0046A198 /* MataMata */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF35200FDA7A0046A198 /* LKOitavasServices.h */,
+				307EFF36200FDA7A0046A198 /* LKOitavasServices.m */,
+			);
+			path = MataMata;
+			sourceTree = "<group>";
+		};
+		307EFF38200FDAE10046A198 /* Oitavas */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF3C200FDB4B0046A198 /* LKOitavasDBCoreData.h */,
+				307EFF3D200FDB4B0046A198 /* LKOitavasDBCoreData.m */,
+			);
+			path = Oitavas;
+			sourceTree = "<group>";
+		};
+		307EFF4320110C870046A198 /* FaseGrupo */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF4420110CA60046A198 /* LKFaseGrupoDBCoreData.h */,
+				307EFF4520110CA60046A198 /* LKFaseGrupoDBCoreData.m */,
+			);
+			path = FaseGrupo;
+			sourceTree = "<group>";
+		};
+		307EFF4A201113F40046A198 /* FaseGrupo */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF4E201115080046A198 /* LKFaseGrupoService.h */,
+				307EFF4F201115080046A198 /* LKFaseGrupoService.m */,
+			);
+			path = FaseGrupo;
+			sourceTree = "<group>";
+		};
+		307EFF90201143190046A198 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF91201143190046A198 /* FaseGrupos */,
+				307EFF97201143190046A198 /* ListaEstadios */,
+				307EFFA3201143190046A198 /* Login */,
+				307EFFA6201143190046A198 /* MataMata */,
+				307EFFAD201143190046A198 /* Menu */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		307EFF91201143190046A198 /* FaseGrupos */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF92201143190046A198 /* Cell */,
+				307EFF95201143190046A198 /* LKFaseGrupoTableViewController.h */,
+				307EFF96201143190046A198 /* LKFaseGrupoTableViewController.m */,
+			);
+			path = FaseGrupos;
+			sourceTree = "<group>";
+		};
+		307EFF92201143190046A198 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF93201143190046A198 /* LKFaseGrupoCell.h */,
+				307EFF94201143190046A198 /* LKFaseGrupoCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		307EFF97201143190046A198 /* ListaEstadios */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF98201143190046A198 /* cell */,
+				307EFF9B201143190046A198 /* LKDetalhesEstadioViewController.h */,
+				307EFF9C201143190046A198 /* LKDetalhesEstadioViewController.m */,
+				307EFF9D201143190046A198 /* LKEstadiosController.h */,
+				307EFF9E201143190046A198 /* LKEstadiosController.m */,
+				307EFF9F201143190046A198 /* LKMapaEstadioViewController.h */,
+				307EFFA0201143190046A198 /* LKMapaEstadioViewController.m */,
+				307EFFA1201143190046A198 /* LKVideoEstadioViewController.h */,
+				307EFFA2201143190046A198 /* LKVideoEstadioViewController.m */,
+			);
+			path = ListaEstadios;
+			sourceTree = "<group>";
+		};
+		307EFF98201143190046A198 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF99201143190046A198 /* LKEstadioCell.h */,
+				307EFF9A201143190046A198 /* LKEstadioCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		307EFFA3201143190046A198 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				307EFFA4201143190046A198 /* LKLoginViewController.h */,
+				307EFFA5201143190046A198 /* LKLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		307EFFA6201143190046A198 /* MataMata */ = {
+			isa = PBXGroup;
+			children = (
+				307EFFA7201143190046A198 /* Cell */,
+				307EFFAB201143190046A198 /* LKOitavasTableViewController.h */,
+				307EFFAC201143190046A198 /* LKOitavasTableViewController.m */,
+			);
+			path = MataMata;
+			sourceTree = "<group>";
+		};
+		307EFFA7201143190046A198 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				307EFFA8201143190046A198 /* LKMataMataTableViewCell.h */,
+				307EFFA9201143190046A198 /* LKMataMataTableViewCell.m */,
+				307EFFAA201143190046A198 /* LKMataMataTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		307EFFAD201143190046A198 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				307EFFAE201143190046A198 /* LKMenuViewController.h */,
+				307EFFAF201143190046A198 /* LKMenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		309A7E6920079B8F001B018A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +413,8 @@
 				309A7E9120079B8F001B018A /* My Cup 2018Tests */,
 				309A7E9C20079B8F001B018A /* My Cup 2018UITests */,
 				309A7E7320079B8F001B018A /* Products */,
+				304A1587200E835000F2378D /* Frameworks */,
+				717EC9E7500A8335B01ECB2E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,26 +431,12 @@
 		309A7E7420079B8F001B018A /* My Cup 2018 */ = {
 			isa = PBXGroup;
 			children = (
-				309A7E7820079B8F001B018A /* AppDelegate.h */,
-				309A7E7920079B8F001B018A /* AppDelegate.m */,
-				309A7E7B20079B8F001B018A /* ViewController.h */,
-				309A7E7C20079B8F001B018A /* ViewController.m */,
-				309A7E7E20079B8F001B018A /* Main.storyboard */,
-				309A7E8420079B8F001B018A /* Assets.xcassets */,
-				309A7E8620079B8F001B018A /* LaunchScreen.storyboard */,
-				309A7E8920079B8F001B018A /* Info.plist */,
-				309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */,
-				309A7E7520079B8F001B018A /* Supporting Files */,
+				309A7EB220079F83001B018A /* Config */,
+				309A7EB420079F83001B018A /* Resources */,
+				309A7EB820079F83001B018A /* Sources */,
+				309A7EC320079F83001B018A /* UserInterfaces */,
 			);
 			path = "My Cup 2018";
-			sourceTree = "<group>";
-		};
-		309A7E7520079B8F001B018A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				309A7E7620079B8F001B018A /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		309A7E9120079B8F001B018A /* My Cup 2018Tests */ = {
@@ -143,6 +457,143 @@
 			path = "My Cup 2018UITests";
 			sourceTree = "<group>";
 		};
+		309A7EB220079F83001B018A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1A52007D871008F5985 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		309A7EB420079F83001B018A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD3A838720128DC1001A7A07 /* Audio */,
+				309A7EB520079F83001B018A /* json */,
+				309A7EB620079F83001B018A /* xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		309A7EB520079F83001B018A /* json */ = {
+			isa = PBXGroup;
+			children = (
+				308601D1200D318A0005FAE4 /* Estadios.json */,
+				30B9EAFA201677AC009A45E5 /* FaseGrupo.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		309A7EB620079F83001B018A /* xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				309A7EB720079F83001B018A /* Assets.xcassets */,
+			);
+			path = xcassets;
+			sourceTree = "<group>";
+		};
+		309A7EB820079F83001B018A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF90201143190046A198 /* Controllers */,
+				309A7EB920079F83001B018A /* Categories */,
+				309A7EBB20079F83001B018A /* DAO */,
+				309A7EBC20079F83001B018A /* Dependencies */,
+				309A7EBD20079F83001B018A /* Misc */,
+				309A7EC120079F83001B018A /* Models */,
+				309A7EC220079F83001B018A /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		309A7EB920079F83001B018A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				307EFEF7200EA07B0046A198 /* Utils */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		309A7EBB20079F83001B018A /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1D4200922C5008F5985 /* CoreData */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		309A7EBC20079F83001B018A /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1AD20090DF4008F5985 /* Libs */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		309A7EBD20079F83001B018A /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				309A7EBE20079F83001B018A /* AppDelegate.h */,
+				309A7EBF20079F83001B018A /* AppDelegate.m */,
+				309A7EC020079F83001B018A /* main.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		309A7EC120079F83001B018A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				303EA1AA20090B37008F5985 /* Estadio.h */,
+				303EA1AB20090B37008F5985 /* Estadio.m */,
+				307EFF0E200F77340046A198 /* Usuario.h */,
+				307EFF0F200F77340046A198 /* Usuario.m */,
+				307EFF2E200FD9320046A198 /* LKOitavas.h */,
+				307EFF2F200FD9320046A198 /* LKOitavas.m */,
+				307EFF472011100D0046A198 /* FaseGrupo.h */,
+				307EFF482011100D0046A198 /* FaseGrupo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		309A7EC220079F83001B018A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				307EFF4A201113F40046A198 /* FaseGrupo */,
+				307EFF34200FDA7A0046A198 /* MataMata */,
+				307EFF0A200F76A90046A198 /* Login */,
+				303EA1CE200913BB008F5985 /* Estadio */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		309A7EC320079F83001B018A /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				309A7EC420079F83001B018A /* LaunchScreen.storyboard */,
+				309A7EC520079F83001B018A /* Main.storyboard */,
+			);
+			path = UserInterfaces;
+			sourceTree = "<group>";
+		};
+		717EC9E7500A8335B01ECB2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91A5A0E281BE9D8F3C883070 /* Pods-My Cup 2018.debug.xcconfig */,
+				FEAA319072CDE7FC8BFAF4ED /* Pods-My Cup 2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD3A838720128DC1001A7A07 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				30B9EAF62015F79A009A45E5 /* front-desk.mp3 */,
+				30B9EAF72015F79A009A45E5 /* ice-cubes.mp3 */,
+				AD3A838F2012930C001A7A07 /* vinhetaFox.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +601,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 309A7EA220079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018" */;
 			buildPhases = (
+				248346419F78558371AA567C /* [CP] Check Pods Manifest.lock */,
 				309A7E6E20079B8F001B018A /* Sources */,
 				309A7E6F20079B8F001B018A /* Frameworks */,
 				309A7E7020079B8F001B018A /* Resources */,
+				3B93553941CAAE7C07C316BD /* [CP] Embed Pods Frameworks */,
+				37ECA2E39B2475735584EB3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +659,7 @@
 		309A7E6A20079B8F001B018A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LK;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Alex dos Santos";
 				TargetAttributes = {
@@ -249,9 +704,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309A7E8820079B8F001B018A /* LaunchScreen.storyboard in Resources */,
-				309A7E8520079B8F001B018A /* Assets.xcassets in Resources */,
-				309A7E8020079B8F001B018A /* Main.storyboard in Resources */,
+				303EA1A62007D871008F5985 /* Info.plist in Resources */,
+				309A7ECB20079F83001B018A /* Main.storyboard in Resources */,
+				308601D2200D318A0005FAE4 /* Estadios.json in Resources */,
+				307EFFB9201143190046A198 /* LKMataMataTableViewCell.xib in Resources */,
+				30B9EAF82015F79B009A45E5 /* front-desk.mp3 in Resources */,
+				30B9EAF92015F79B009A45E5 /* ice-cubes.mp3 in Resources */,
+				30B9EAFB201677AC009A45E5 /* FaseGrupo.json in Resources */,
+				AD3A83932012930C001A7A07 /* vinhetaFox.mp3 in Resources */,
+				309A7ECA20079F83001B018A /* LaunchScreen.storyboard in Resources */,
+				309A7EC720079F83001B018A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +733,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		248346419F78558371AA567C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Cup 2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37ECA2E39B2475735584EB3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Cup 2018/Pods-My Cup 2018-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B93553941CAAE7C07C316BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Cup 2018/Pods-My Cup 2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Cup 2018/Pods-My Cup 2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		309A7E6E20079B8F001B018A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309A7E7D20079B8F001B018A /* ViewController.m in Sources */,
-				309A7E7A20079B8F001B018A /* AppDelegate.m in Sources */,
-				309A7E7720079B8F001B018A /* main.m in Sources */,
-				309A7E8320079B8F001B018A /* My_Cup_2018.xcdatamodeld in Sources */,
+				307EFFB7201143190046A198 /* LKLoginViewController.m in Sources */,
+				AD3A838320128CC3001A7A07 /* LKVideoUtils.m in Sources */,
+				307EFF30200FD9320046A198 /* LKOitavas.m in Sources */,
+				307EFF3E200FDB4B0046A198 /* LKOitavasDBCoreData.m in Sources */,
+				307EFFB8201143190046A198 /* LKMataMataTableViewCell.m in Sources */,
+				303EA1D1200913D6008F5985 /* LKEstadioService.m in Sources */,
+				307EFF4620110CA60046A198 /* LKFaseGrupoDBCoreData.m in Sources */,
+				307EFFB6201143190046A198 /* LKVideoEstadioViewController.m in Sources */,
+				307EFFB5201143190046A198 /* LKMapaEstadioViewController.m in Sources */,
+				307EFFB1201143190046A198 /* LKFaseGrupoTableViewController.m in Sources */,
+				AD3A838620128CDD001A7A07 /* AudioUtil.m in Sources */,
+				303EA1E2200929D6008F5985 /* My_Cup_2018.xcdatamodeld in Sources */,
+				309A7EC920079F83001B018A /* main.m in Sources */,
+				307EFFB0201143190046A198 /* LKFaseGrupoCell.m in Sources */,
+				307EFFBA201143190046A198 /* LKOitavasTableViewController.m in Sources */,
+				307EFF50201115080046A198 /* LKFaseGrupoService.m in Sources */,
+				307EFF492011100D0046A198 /* FaseGrupo.m in Sources */,
+				307EFF37200FDA7A0046A198 /* LKOitavasServices.m in Sources */,
+				307EFFB2201143190046A198 /* LKEstadioCell.m in Sources */,
+				307EFF0D200F76D80046A198 /* LKLoginService.m in Sources */,
+				307EFFB4201143190046A198 /* LKEstadiosController.m in Sources */,
+				307EFF20200FCF840046A198 /* LKLoginDBCoreData.m in Sources */,
+				307EFF10200F77340046A198 /* Usuario.m in Sources */,
+				307EFFBB201143190046A198 /* LKMenuViewController.m in Sources */,
+				303EA1DC200924E0008F5985 /* LKEstadioDBCoreData.m in Sources */,
+				309A7EC820079F83001B018A /* AppDelegate.m in Sources */,
+				303EA1AC20090B37008F5985 /* Estadio.m in Sources */,
+				307EFFB3201143190046A198 /* LKDetalhesEstadioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,25 +855,6 @@
 			targetProxy = 309A7E9A20079B8F001B018A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		309A7E7E20079B8F001B018A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				309A7E7F20079B8F001B018A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		309A7E8620079B8F001B018A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				309A7E8720079B8F001B018A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		309A7EA020079B8F001B018A /* Debug */ = {
@@ -426,9 +949,10 @@
 		};
 		309A7EA320079B8F001B018A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A5A0E281BE9D8F3C883070 /* Pods-My Cup 2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "My Cup 2018/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/My Cup 2018/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,9 +961,10 @@
 		};
 		309A7EA420079B8F001B018A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAA319072CDE7FC8BFAF4ED /* Pods-My Cup 2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "My Cup 2018/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/My Cup 2018/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.My-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +1036,7 @@
 				309A7EA420079B8F001B018A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309A7EA520079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +1045,7 @@
 				309A7EA720079B8F001B018A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309A7EA820079B8F001B018A /* Build configuration list for PBXNativeTarget "My Cup 2018UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,17 +1054,19 @@
 				309A7EAA20079B8F001B018A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		309A7E8120079B8F001B018A /* My_Cup_2018.xcdatamodeld */ = {
+		303EA1E0200929D6008F5985 /* My_Cup_2018.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */,
+				303EA1E1200929D6008F5985 /* My_Cup_2018.xcdatamodel */,
 			);
-			currentVersion = 309A7E8220079B8F001B018A /* My_Cup_2018.xcdatamodel */;
-			path = My_Cup_2018.xcdatamodeld;
+			currentVersion = 303EA1E1200929D6008F5985 /* My_Cup_2018.xcdatamodel */;
+			name = My_Cup_2018.xcdatamodeld;
+			path = ../../My_Cup_2018.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
