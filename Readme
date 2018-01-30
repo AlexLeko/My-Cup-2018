@@ -1,0 +1,22 @@
+Projeto-Final-IOS---My-Cup-2018
+O Curso
+Projeto de conclusão de curso, para o treinamento PIC de IOS 2018 Treinamento realizado na Cast Group e ministrado pelo professor Edi Vergis. Carga do Curso: 85 horas.
+
+Linguagem
+A liguagem utilizada é o objetive-c, para uma melhor aprendizagem dos fundamentos da programação para aplicativos ios. Durante o curso foi apresentado a linguagem Swift, mas para melhor assimilação do conteúdo, optei pelo desenvolvimento em objetive-c.
+
+App
+O app tem como ideia fornecer os dados da Copa do Mundo de futebol de 2018. Nesta primeira versão, foi desenvolvido a visualização das telas de Estádios e os jogos da fase de grupo.
+
+==== Conteúdo: ====
+
+TableViewController
+Tela de Login
+Consumo de API
+Core Data
+Mapas
+Utilização de JSON
+Navegação entre telas
+Execução de Áudio e Video
+CocoaPods
+Utilização de Arquitetura
